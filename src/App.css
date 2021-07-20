@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+.main-header {
+  padding: 1rem;
+  background-size: 100%;
+  background-image: url(./images/Recipe_Home.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: black;
+  height: 10%;
+}
+
+main {
+  text-align: center;
+  margin: 0 10%;
+}
+
+.recipe-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-input {
+  display: block;
+  margin-left: 0.5rem;
+}
+
+.image-container {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin-left: 1.1rem;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 200px;
+  min-height: 100%;
+}
+
+.newLine {
+  white-space: pre-wrap;
+}
+
+.main-body {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.main-body > * {
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.ingredients,
+.instructions {
+  text-align: left;
+  margin-left: 1.1rem;
+}
+
+.list {
+  display: inline-flex;
+  float: left;
+  text-align: left;
+}
+
+@media all and (min-width: 800px) {
+  .recipe-details {
+    flex: 1;
+  }
+  .recipe-aside {
+    order: 2;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .recipe-aside {
+    flex: 1;
+  }
+  .recipe-name,
+  .description {
+    text-align: left;
+    margin-left: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .forMobile {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
