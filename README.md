@@ -1,6 +1,6 @@
-# Getting Started with Recipe App
+# Getting Started with the Recipe App
 
-A small toy backend built for browsing, adding & removing recipes.
+A Recipe App frontend built for browsing, adding & removing recipes.
 
 ## Prerequisites
 
