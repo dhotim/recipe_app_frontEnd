@@ -8,12 +8,18 @@ A Recipe App frontend built for browsing, adding & removing recipes.
 #### This front end requires [this backend api server](https://github.com/MinutHQ/home-assignment-recipe-be.git) to work properly. Set up the backend server according to the instructions there.
 
 ## Getting Started
-Install the dependencies
+
+Clone the repository:
+```
+https://github.com/dhotim/recipe_app_frontEnd.git
+```
+
+Install the dependencies:
 ```
 npm install
 ```
 
-Start the Recipe app
+Start the Recipe app in the project directory using:
 ```
 npm start
 ```
